@@ -1,0 +1,52 @@
+#navbar{
+    display:  flex;
+    justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   font-size: 30px;
+}
+
+
+#search_input{
+    width: 80%;
+    border-radius: 10px;
+}
+
+#main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#sidebar{
+    font-size: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+#results{
+    /* display: flex; */
+    width:  80%;
+
+}
+
+#news{
+    display: flex;
+    width:  100%;
+    border: 1px solid red;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+#sidebar > div{
+    background-color: teal;
+    margin-bottom: 20px;
+}
+
